@@ -10,6 +10,7 @@
   body {
     background-color: #fefefe;
     color: #333;
+    padding-top: 20px;
   }
 .header{
   box-sizing: border-box;
@@ -23,11 +24,11 @@
   align-items: center;
   justify-content: space-between;
   top: 0;
-
+  overflow-x: auto;
 }
 .header a{
-  flex:auto;         
-  text-decoration: none;
+  padding: 0 15px;
+  white-space: nowrap;
 }
 
 .header a:visited{
@@ -110,7 +111,7 @@
     font-family:fantasy;
     margin-bottom: 10px;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 15px;
     color:#0e0e0e97;
     margin-top: 25px;
     text-align: left;
