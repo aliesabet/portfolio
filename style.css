@@ -19,14 +19,14 @@
   background-color:#0073e661;
   text-align: center;
   /* margin: auto; */
-  padding: 10px;
-  gap: 50px;
+align-items: center;
   justify-content: center;
   color: #ffffff;
   top: 0;
 }
 .header a{
   text-decoration: none;
+  padding-inline: clamp(1rem, 5vw, 6rem);
 }
 
 .header a:visited{
