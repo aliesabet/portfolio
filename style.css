@@ -112,7 +112,9 @@
     color:#0e0e0e97;
     margin-top: 25px;
     text-align: left;
-    
+    white-space: nowrap;
+    font-size: clamp(16px, 4vw, 32px);
+    text-overflow: ellipsis;
   }
   .profile-divider{
     width: 80%;
