@@ -113,7 +113,7 @@
     margin-top: 25px;
     text-align: left;
     white-space: nowrap;
-    font-size: clamp(16px, 4vw, 32px);
+    font-size: clamp(8px, 4vw, 52px);
     text-overflow: ellipsis;
   }
   .profile-divider{
