@@ -19,7 +19,7 @@
   background-color:#0073e661;
   text-align: center;
   /* margin: auto; */
-align-items: center;
+  align-items: center;
   justify-content: center;
   color: #ffffff;
   top: 0;
@@ -331,7 +331,7 @@ align-items: center;
     }
    
    .profile-divider{
-    width: 90%;
+    width: 100%;
     background-color:#0073e6fa;
     height: 5px;
    }
