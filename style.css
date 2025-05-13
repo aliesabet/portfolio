@@ -315,12 +315,14 @@
     .right-column{
         order: 0;
         width: 100%;
+        overflow-x: auto;
     }
     .right-sidebar {
       width: 100%;
       height: auto;
       order: 2;
       text-align:center;
+      overflow-x: auto;
     }
     .profile-pic {
       display: block;
@@ -330,7 +332,7 @@
     }
    
    .profile-divider{
-    width: 100%;
+    width: 80%;
     background-color:#0073e6fa;
     height: 5px;
    }
