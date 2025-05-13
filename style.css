@@ -308,17 +308,17 @@
 
     }
     .left-column{
-      width: 100%;
+      width: auto;
       order: 1;
       height: auto;
     }
     .right-column{
         order: 0;
-        width: 100%;
+        width: auto;
         overflow-x: auto;
     }
     .right-sidebar {
-      width: 100%;
+      width: auto;
       height: auto;
       order: 2;
       text-align:center;
