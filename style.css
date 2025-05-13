@@ -302,7 +302,7 @@
     margin-top: auto;
     align-items: center;
     color: #ffffff;
-    width: 100%;
+  width: clamp(200px, 100%, 300px);
     height: 40px;
     background-color: #0073e678;
   }
@@ -312,29 +312,34 @@
 
     }
     .left-column{
-      width: 100%;
+
       order: 1;
       height: auto;
+      width: clamp(200px, 100%, 300px);
+
     }
     .right-column{
         order: 0;
-        width: 100%;
+        width: clamp(200px, 100%, 300px);
+
     }
     .right-sidebar {
-      width: 100%;
+      width: clamp(200px, 100%, 300px);
       height: auto;
       order: 2;
       text-align:center;
+
     }
     .profile-pic {
       display: block;
-      width: 150px;
+      width: clamp(200px, 100%, 300px);
       height: 150px;
+      
 
     }
    
    .profile-divider{
-    width: 100%;
+    width: clamp(200px, 100%, 300px);
     background-color:#0073e6fa;
     height: 5px;
    }
