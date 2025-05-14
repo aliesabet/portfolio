@@ -52,9 +52,11 @@ body {
 
 .profile {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 20px auto;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px auto;
 }
 
 .profile-text {
@@ -284,7 +286,6 @@ body {
   border-radius: 20px;
   width: fit-content;
   background-color: #4962d3;
-  col
 }
 
 .contact-text {
@@ -332,6 +333,7 @@ body {
 
   .profile {
     flex-direction: column;
+    gap: 10px;
   }
 
   .profile-name {
@@ -339,12 +341,12 @@ body {
   }
 
   .contact-icons {
-
     gap: 40px;
     padding: 20px;
+    border-radius: 50px;
   }
 
   .profile-pic {
-    margin: 0 auto 20px;
+    margin: 0 auto;
   }
 }
