@@ -214,10 +214,10 @@
     gap: 40px;
   }
 
-  /* .about, .projects-section {
+  .about, .projects-section {
     max-width: 800px;
     margin: 0 auto;
-  } */
+  }
 
   .about h1 {
     font-size: 32px;
