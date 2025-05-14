@@ -284,6 +284,7 @@ body {
   border-radius: 20px;
   width: fit-content;
   background-color: #4962d3;
+  col
 }
 
 .contact-text {
@@ -322,6 +323,7 @@ body {
   .right-column {
     width: 100%;
     order: unset;
+    
   }
 
   .left-column {
@@ -337,8 +339,8 @@ body {
   }
 
   .contact-icons {
-    flex-direction: column;
-    gap: 10px;
+
+    gap: 20px;
     padding: 20px;
   }
 
